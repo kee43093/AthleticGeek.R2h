@@ -31,12 +31,13 @@ nav ul li a {
     position: relative;
 }
 
-ul li:hover{
+nav a:hover{
     background: red;
 }
 
-ul li ::before :hover {
-
+nav a::before {
+    content: '';
+    display: block;
 }
 
 
