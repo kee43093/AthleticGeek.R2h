@@ -1,37 +1,43 @@
 
-
-}
-
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
+header {
+    background : grey;
+}
+
+header::after {
+    content: '';
+    display: table;
+    
+}
+
 nav {
     width: 100%;
-    background:grey;
     position: relative;
     
 }
 
 nav ul {
     width: 50%;
-    margin: 0 auto;
+    margin: 0;
     padding:0;
 }
 
-nav ul li {
+nav li {
     list-style: none;
     display: inline-block;
     padding: 20px;
-    
+    position: relative;
 }
 
 nav a {
     list-style: none;
     text-decoration: none;
     color: white;
-    position: relative;
+
 }
 
 nav a:hover{
@@ -47,10 +53,9 @@ nav a::before {
     background: #001f44;
     top: 0px;
     transition: all 250ms;
-    
-}
+}  
 
-nav a:hover::before {
+ nav a:hover::before{
     width:100%;
 }
 
@@ -65,7 +70,7 @@ nav a:hover::before {
     display: none;
 }
 
-@media (max-width:500px)
+@media (max-width:519px)
 {.toggle {
     display: block;
     }
