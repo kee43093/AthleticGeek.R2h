@@ -4,9 +4,12 @@
 
 }
 
+
+
 nav {
     width: 100%;
     background:grey;
+    position: relative;
     
 }
 
@@ -41,7 +44,9 @@ nav a::before {
     width: 0%;
     position: absolute;
     background: #001f44;
-    top: 0;
+    top: 0px;
+    transition: all 250ms;
+    
 }
 
 nav a:hover::before {
