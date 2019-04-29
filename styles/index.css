@@ -36,7 +36,7 @@ ul li:hover{
     display: none;
 }
 
-@media (max-width:768px)
+@media (max-width:500px)
 {.toggle {
     display: block;
     }
