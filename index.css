@@ -1,0 +1,132 @@
+body {
+    font-family: 'roboto', "Poppins", sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+
+nav {
+    width: 100%;
+    position: absolute; 
+    display: flex;
+    }
+
+nav ul {
+
+    margin: 0;
+    padding:0;
+
+}
+
+ul:hover {
+    opacity: 0.5;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    position:relative;
+}
+
+nav a {
+    list-style: none;
+    text-decoration: none;
+    color: pink;
+
+}
+
+nav a:hover {
+    background: red;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    background: whitesmoke;
+    top: 10px;
+    transition: all 250ms;
+}  
+
+ nav a:hover::before {
+    width:50%;
+}
+
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background:rgb(213, 214, 216);
+    text-align:right;
+    box-sizing:border-box;
+    color:#fff;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:519px)
+{.toggle {
+    display: block;
+    }
+
+ul {
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+}
+
+section {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.Attractions {
+    height: 440px;
+    position:relative;
+    z-index: 1;
+    opacity: 0.95;
+}
+
+
+.copyright {
+    padding-right: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.link_item a {
+    padding-right: 30px;
+    font-size:30px;
+    color: whitesmoke;
+    
+}
+ 
+
+body footer {
+     display: flex;
+     position: absolute;
+     color: whitesmoke;
+     opacity: 1;
+     z-index: 1;
+ }
+
+.second-img {
+    width: 50%;
+    position: relative;
+    height: 100px;
+}
