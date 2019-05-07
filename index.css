@@ -85,7 +85,7 @@ header > a[href="#option-menu"]{
 
 
 .bg-img {
-    background-image: url("../images/eric-muhr-674774-unsplash.jpg");
+    background-image: url("../images/us-oregon-crater-lake.jpg");
   
 }
 
@@ -119,7 +119,7 @@ section {
 #banner::before {
   content:"";
   display: block;
-  background-color:black;
+  background-color:transparent;
   height: 100%;
   left:0;
   opacity:0.45;
@@ -169,7 +169,7 @@ section {
 
 
 .bg-img1 {
-    background-image: url('/images/christopher-burns-617704-unsplash.jpg');
+    background-image: url('/images/pexels-photo-830965.jpeg');
 }
 
 .post {
