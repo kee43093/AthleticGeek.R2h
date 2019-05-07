@@ -5,7 +5,6 @@ html {
   font-size:100%;
   display:block;
 
-
 }
 
 body {
@@ -15,12 +14,11 @@ body {
 
 }
 
-
-#header{
-  background-color:transparent;
+#header {
+  background-color: transparent;
   color: #fdd1d1;
-  cursor:default;
-  height:3.25em;
+  cursor: default;
+  height: 3.25em;
   position: fixed;
   text-align: right;
   top: 1em;
@@ -127,7 +125,6 @@ section {
   top: 0;
   width: 100%;
   z-index: 1;
-
 }
 
 #banner .inner {
@@ -208,3 +205,4 @@ section {
 .bg-img2 {
     background-image:url("/images/eric-muhr-674774-unsplash.jpg")
 }
+
