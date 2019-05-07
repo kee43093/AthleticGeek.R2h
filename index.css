@@ -80,6 +80,9 @@ header > a[href="#option-menu"]{
   text-transform: none !important;
 }
 
+section {
+  display: block;
+}
 
 
 .bg-img {
@@ -200,10 +203,21 @@ section {
 
 }
 
+.box{
+  
+}
+
+.post .box {
+    margin: 0;
+  
+}
+
 
 
 .bg-img2 {
     background-image:url("/images/christopher-burns-617704-unsplash.jpg");
+
+
 
 .bg-img3 {
     background-image:url("")
