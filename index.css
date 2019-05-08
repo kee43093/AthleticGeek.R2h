@@ -234,3 +234,26 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+.main-links {    
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  
+  
+}
+  
+
+.link_item  {
+
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #A7E7D9;
+  padding: 15px;
+     
+  }
+
+
+#footer  {
+    
+}
