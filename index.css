@@ -189,7 +189,7 @@ section {
 
 }
 
-.post::before {
+.post .more::before {
     content:'';
     display: block;
     background-color:#0000;
@@ -204,7 +204,10 @@ section {
 }
 
 .box{
-  
+  background:transparent;
+
+  overflow: hidden;
+
 }
 
 .post .box {
@@ -212,13 +215,22 @@ section {
   
 }
 
+article {
+  border: 0;
+  
+}
+
 
 
 .bg-img2 {
     background-image:url("/images/christopher-burns-617704-unsplash.jpg");
+}
 
 
-
-.bg-img3 {
-    background-image:url("")
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
