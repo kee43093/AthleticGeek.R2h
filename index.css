@@ -162,18 +162,19 @@ section {
     font-size: 5em;
     line-height: 1.1;
     font-family: "Lobster",cursive;
-    color: rgba(255, 255, 255, 0.75);
+    color: black;
     text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
 
 }
 
 #one p {
-    color: white;
+    color:black;
 }
 
 
 .bg-img1 {
-    background-image: url("/images/us-oregon-crater-lake.jpg");
+    background-image: url();
+    
 }
 
 .post {
@@ -208,10 +209,15 @@ section {
 }
 
 .box{
-  background:transparent;
+  background:rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
 
   overflow: hidden;
 
+}
+
+.second {
+  background:white;
 }
 
 .post .box {
@@ -259,12 +265,23 @@ p {
 
 
 #footer  {
-    background-color: white;
-    color:Blue;
+    background-color:red;
+    
     
 }
 
 #two h1 {
   font-size: 3em;
   color: white;
+}
+
+
+form .field.half.first {
+  margin-right: 3%;
+
+}
+
+form .field.half {
+  display: inline-block;
+  width: 48%;
 }
