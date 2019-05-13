@@ -291,3 +291,25 @@ form .field.half {
   display: inline-block;
   width: 48%;
 }
+
+.main-links {    
+  display: flex;
+  position: absolute;
+  top: 71%;
+  text-align: center;
+  right: 38%;
+  transition: all 0.5 ease;
+}
+  
+
+.link_item  {
+     
+     font-weight: 700;
+     font-size: 4em;
+     padding: 25px;
+     color: #A7E7D9;
+     background-color: transparent;
+     border: 1px solid white;
+     transition: all 0.05 ease-in;
+     
+  }
