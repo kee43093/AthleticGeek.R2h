@@ -170,7 +170,7 @@ section {
 #one p {
     color:black;
     margin-right:20px;
-    
+
 }
 
 
@@ -197,7 +197,7 @@ section {
 }
 
 .post .more::before {
-    content:'';
+    content:;
     display: block;
     background-color:#0000;
     opacity: 0.45; 
