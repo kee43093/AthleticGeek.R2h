@@ -216,9 +216,6 @@ section {
   overflow: hidden;
 }
 
-.second {
-  
-}
 
 .post .box {
     margin: 0;
@@ -271,10 +268,14 @@ p {
 
 
 #footer  {
-    background-color:red;
-    
+    background-color:white;
     
 }
+
+#footer .inner {
+  margin: 0 auto;
+}
+
 
 #two h1 {
   font-size: 3em;
@@ -295,21 +296,20 @@ form .field.half {
 .main-links {    
   display: flex;
   position: absolute;
-  top: 71%;
   text-align: center;
-  right: 38%;
-  transition: all 0.5 ease;
-}
+  justify-content: flex-end;
   
+}
 
 .link_item  {
      
      font-weight: 700;
-     font-size: 4em;
-     padding: 25px;
+     font-size: 1em;
+     padding: 15px;
      color: #A7E7D9;
      background-color: transparent;
-     border: 1px solid white;
-     transition: all 0.05 ease-in;
+     
      
   }
+
+
