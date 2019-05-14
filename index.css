@@ -71,6 +71,8 @@ header > a[href="#option-menu"]{
   
 }
 
+
+
 #header > a[href="#option-menu"]:before {
   content:'';
   font-style:normal;
@@ -175,7 +177,7 @@ section {
 
 
 .bg-img1 {
-  background-image:url("");
+  background-image:url("/images/oregon5.jpg");
     
 }
 
