@@ -164,11 +164,14 @@ section {
     
 }
 
-#one h1 {
-    font-size: 5em;
+
+
+
+ h2 {
+    font-size: 2.5em;
     line-height: 1.1;
     font-family: "Lobster",cursive;
-    color: black;
+    color: white;
     text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
 
 }
@@ -203,7 +206,7 @@ section {
 }
 
 .post .more::before {
-    content:;
+    content:"";
     display: block;
     background-color:#0000;
     opacity: 0.45; 
@@ -220,7 +223,9 @@ section {
   background:rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   overflow: hidden;
+  padding: 4em;
 }
+
 
 
 .post .box {
@@ -241,7 +246,7 @@ article {
 
 
 .bg-img3 {
-background-image:url("");
+background-image:url("/images/oregon4.jpg");
 }
 
 
