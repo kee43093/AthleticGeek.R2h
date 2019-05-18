@@ -76,12 +76,13 @@ body {
 
 
 #header > a[href="#option-menu"]::before {
-  content:'';
+  content:'/f0c9';
   font-style:normal;
   font-weight:normal;
   text-transform: none !important;
   margin:0;
  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -127,10 +128,12 @@ section {
 #banner::before {
   content:"";
   display: block;
-  background-color:transparent;
+  background-color:#000;
+  transition: opacity 4s ease;
+  transition-delay: 1.25s;
   height: 100%;
   left:0;
-  opacity:0.45;
+  opacity:0.30;
   position: absolute;
   top: 0;
   width: 100%;
@@ -178,7 +181,7 @@ section {
 
 
 .bg-img1 {
-  background-image:url("/images/oregon5.jpg");
+  background-image:url("/images/Forest.jpg");
     
 }
 
@@ -200,7 +203,7 @@ section {
 }
 
 .post .more::before {
-    content:'';
+    content:;
     display: block;
     background-color:#0000;
     opacity: 0.45; 
@@ -238,7 +241,7 @@ article {
 
 
 .bg-img3 {
-background-image:url('/images/Food\ image.jpg');
+background-image:url("");
 }
 
 
@@ -270,10 +273,6 @@ p {
   }
 
 
-#footer  {
-    background-color:white;
-    
-}
 
 #footer .inner {
   margin: 0 auto;
@@ -315,4 +314,9 @@ form .field.half {
      
   }
 
+
+  #footer  {
+    background-color:skyblue;
+    
+}
 
