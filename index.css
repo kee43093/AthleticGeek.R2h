@@ -15,6 +15,7 @@ body {
   margin:0;
   padding:0;
   border: 0;
+  background:black;
 
 }
 
@@ -285,6 +286,7 @@ p {
 
 #footer .inner {
   margin: 0 auto;
+  background:skyblue;
 }
 
 
@@ -306,10 +308,8 @@ form .field.half {
 
 .main-links {    
   display: flex;
-  position: absolute;
   text-align: center;
-  justify-content: flex-end;
-  
+  justify-items: center;
 }
 
 .link_item  {
@@ -318,14 +318,13 @@ form .field.half {
      font-size: 1em;
      padding: 15px;
      color: #A7E7D9;
-     background-color: transparent;
      
-     
+   
   }
 
 
   #footer  {
     background-color:skyblue;
-    
+    position: relative;
 }
 
