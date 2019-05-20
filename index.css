@@ -277,8 +277,7 @@ p {
 
 
 #footer .inner {
-  margin: 0 auto;
-  background:skyblue;
+  margin: 0 auto;;
 }
 
 
@@ -316,7 +315,7 @@ form .field.half {
 
 
   #footer  {
-    background-color:skyblue;
+    background-color:black;
     padding: 6em 0 4em 0;
 }
 
