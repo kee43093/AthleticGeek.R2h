@@ -75,22 +75,14 @@ body {
   text-align:center;
   position: relative;
   right: 5%;
+  background: black;
   
 }
 
-
-#header > a[href="#option-menu"]::before {
-  content:'';
-  font-style:normal;
-  font-weight:normal;
-  text-transform: none !important;
-  margin:0;
- -webkit-font-smoothing: antialiased;
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: normal;
-  text-transform: none !important;
+.fa-bars:before {
+  color: white;
 }
+
 
 section {
   display: block;
