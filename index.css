@@ -308,8 +308,8 @@ form .field.half {
 
 .main-links {    
   display: flex;
+  position:relative;
   text-align: center;
-  justify-items: center;
 }
 
 .link_item  {
@@ -325,6 +325,5 @@ form .field.half {
 
   #footer  {
     background-color:skyblue;
-    position: relative;
 }
 
