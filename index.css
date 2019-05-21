@@ -277,15 +277,17 @@ p {
 }
 
 #footer .inner {
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 
 .main-links {    
     display: flex;
     position:relative;
+    justify-content: center;
     text-align: center;
     top:25px;
+
   }
   
 .link_item  {
@@ -293,9 +295,14 @@ p {
        font-weight: 700;
        font-size: 1em;
        padding: 15px;
-       color: #A7E7D9;
+       border: solid white 3px;
+       border-radius: 50%;
        
     }
+
+  .link_item a {
+    color: white;
+  }
 
   /* End Of Footer */
 
@@ -316,7 +323,7 @@ form .field.half {
 }
 
 form .field {
-
+  margin-bottom: 1.5em;
 }
 
 input #name {
@@ -327,8 +334,14 @@ input #email {
 
 }
 
-textarea #message {
-  
+textarea  {
+  padding: 0.75em 1em;
+  width: 50%;
+}
+
+#footer input[type="text"] {
+  background: rgba (255, 255, 0.075);
+  border-color: rgba(255 ,255, 255, 0.25);
 }
 
 
