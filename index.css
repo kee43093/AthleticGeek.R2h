@@ -173,7 +173,9 @@ section {
     font-family: "Lobster",cursive;
     color: white;
     text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
-
+    text-align: center;
+    position: relative;
+    bottom: 75px;
 }
 
 #one p {
@@ -278,29 +280,57 @@ p {
   margin: 0 auto;;
 }
 
+
 .main-links {    
-  display: flex;
-  position:relative;
-  text-align: center;
+    display: flex;
+    position:relative;
+    text-align: center;
+    top:25px;
+  }
+  
+.link_item  {
+       
+       font-weight: 700;
+       font-size: 1em;
+       padding: 15px;
+       color: #A7E7D9;
+       
+    }
+
+
+/* Beginning Of Form */
+
+label {
+  color:white;
 }
 
-.link_item  {
-     
-     font-weight: 700;
-     font-size: 1em;
-     padding: 15px;
-     color: #A7E7D9;
-     
-  }
+form .field.half.first {
+  margin-right: 3%;
 
-  form .field.half.first {
-    margin-right: 3%;
+}
+
+form .field.half {
+  display: inline-block;
+  width: 48%;
+}
+
+form .field {
+
+}
+
+input #name {
+
+}
   
-  }
+input #email {
+
+}
+
+textarea #message {
   
-  form .field.half {
-    display: inline-block;
-    width: 48%;
-  }
+}
+
+
+/* End Of Form */
 
   /* End Of Footer */
