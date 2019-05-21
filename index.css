@@ -326,11 +326,13 @@ form .field {
   margin-bottom: 1.5em;
 }
 
-input #name {
-
+input[type="name"] {
+  border-radius: 4px;
+  border: solid white 1px;
+  
 }
   
-input #email {
+input[type="email"] {
 
 }
 
