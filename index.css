@@ -355,13 +355,14 @@ input[type="text"] {
   border-radius: 4px;
   border: solid white 1px;
   width:100%;
+  padding: 10px;
   
 
 }
 
 input[type="email"] {
   border-radius: 4px;
-  padding: 0 1em;
+  padding: 10px;
   border: solid 1px;
   width:101%;
 }
