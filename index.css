@@ -345,6 +345,7 @@ form .field.half.first {
 form .field.half {
   display: inline-block;
   width: 48%;
+  padding: 10px;
 }
 
 form .field {
