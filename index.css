@@ -356,6 +356,8 @@ input[type="text"] {
   border: solid white 1px;
   width:100%;
   padding: 10px;
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.2);
   
 
 }
