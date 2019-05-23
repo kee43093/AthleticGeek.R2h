@@ -18,6 +18,24 @@ body {
   background:black;
 
 }
+
+body::after {
+  background: black;
+  content:'';
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    visibility: visible;
+    opacity: 1;
+}
 /* Beginning of header */
 
 #header {
@@ -94,6 +112,7 @@ section {
 
 .bg-img {
     background-image: url("/images/oregon6.jpg");
+
   
 }
 
@@ -145,6 +164,8 @@ section {
     opacity:1;
     position: relative;
     z-index: 2;
+  
+
 
 }
 
@@ -178,15 +199,16 @@ section {
     bottom: 75px;
 }
 
-#one p {
-    color:black;
+ p {
     margin-right:20px;
+    color:white
 
 }
 
 
 .bg-img1 {
   background-image:url("/images/Forest.jpg");
+  cursor: none;
     
 }
 
@@ -226,6 +248,7 @@ section {
   border-radius: 4px;
   overflow: hidden;
   padding: 4em;
+  margin-bottom: 2em;
 }
 
 
@@ -277,7 +300,7 @@ p {
 }
 
 #footer .inner {
-  margin: 0 auto;
+  margin: 20px;
 }
 
 
@@ -310,6 +333,8 @@ p {
 
 label {
   color:white;
+  display:block;
+  margin: 0 0 1em 0;
 }
 
 form .field.half.first {
@@ -326,19 +351,29 @@ form .field {
   margin-bottom: 1.5em;
 }
 
-input[type="name"] {
+input[type="text"] {
   border-radius: 4px;
   border: solid white 1px;
+  width:100%;
   
-}
-  
-input[type="email"] {
 
+}
+
+input[type="email"] {
+  border-radius: 4px;
+  padding: 0 1em;
+  border: solid 1px;
+  width:101%;
 }
 
 textarea  {
   padding: 0.75em 1em;
   width: 50%;
+  border: solid 1px;
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+
 }
 
 #footer input[type="text"] {
