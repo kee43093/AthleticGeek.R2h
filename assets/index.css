@@ -111,7 +111,7 @@ section {
 
 
 .bg-img {
-    background-image: url("/assests/images/oregon6.jpg");
+    background-image: url("/images/oregon6.jpg");
 
   
 }
@@ -207,7 +207,7 @@ section {
 
 
 .bg-img1 {
-  background-image:url("/assets/images/oregon2.jpg");
+  background-image:url("/images/Forest.jpg");
   cursor: none;
     
 }
@@ -266,12 +266,12 @@ article {
 
 
 .bg-img2 {
-    background-image:url("/assets/images/oregon3.jpg");
+    background-image:url("/images/oregon3.jpg");
 }
 
 
 .bg-img3 {
-background-image:url("/assests/images/whitewater.jpg");
+background-image:url("/images/whitewater.jpg");
 }
 
 
