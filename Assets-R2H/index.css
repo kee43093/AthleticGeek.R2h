@@ -203,6 +203,10 @@ section {
   position: absolute;
   top: 26em;
   color:white;
+  overflow: none;
+  left: 513px;
+  margin-left: 1px;
+  
 }
 
 
@@ -218,7 +222,7 @@ h2 {
 }
 
 p {
-    margin:20px;
+    margin: 15px;
     color:white
 
 }
