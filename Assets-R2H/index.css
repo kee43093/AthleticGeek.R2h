@@ -147,8 +147,9 @@ section {
   content:"";
   display: block;
   background-color:#000;
-  transition: opacity 4s ease;
+  /*transition: opacity 4s ease;
   transition-delay: 1.25s;
+  */
   height: 100%;
   left:0;
   opacity:0.30;
@@ -179,9 +180,9 @@ section {
 }
 
 #banner .more {
-  background-color:red;
+  background-color: black;
   border: 0;
-  bottom: -3em;
+  bottom: 3em;
   color: rgba(255, 255, 255, 0.75);
   display: block;
   height: 3em;
@@ -198,7 +199,10 @@ section {
     
 }
 
+#banner .more {
+  content:"f078"
 
+}
 
 
  h2 {
