@@ -199,6 +199,11 @@ section {
     
 }
 
+.fa-chevron-down:before {
+  position: absolute;
+  top: 26em;
+  color:white;
+}
 
 
 h2 {
@@ -213,7 +218,7 @@ h2 {
 }
 
 p {
-    margin-right:20px;
+    margin:20px;
     color:white
 
 }
