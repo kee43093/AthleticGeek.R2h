@@ -1,3 +1,7 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -16,6 +20,7 @@ body {
   padding:0;
   border: 0;
   /*background:black;*/
+  font-family: "Roboto";
 
 }
 
@@ -175,9 +180,9 @@ section {
 }
 
 #banner h1 {
-    font-size: 4em;
+    font-size: 8em;
     line-height: 1.1;
-    font-family: "Lobster", cursive;
+    font-family: "Work Sans", cursive;
     color: white;
     top: 20px;
     
@@ -204,7 +209,7 @@ section {
 
 .fa-chevron-down::before {
   position: absolute;
-  right:16px;
+
 }
 
 
@@ -276,7 +281,8 @@ h2 {
 
 
 .post .box {
-    margin: 0;
+  margin: 0 auto;
+  max-width: 70%;
   
 }
 
@@ -293,7 +299,7 @@ article {
 
 
 .bg-img3 {
-background-image:url("/images/whitewater.jpg");
+background-image:url("");
 }
 
 
@@ -415,3 +421,10 @@ textarea  {
 
 
 /* End Of Form */
+
+
+
+.seasons {
+  display: grid;
+  grid-template-columns: 30% 25% 30% 15%;
+}
