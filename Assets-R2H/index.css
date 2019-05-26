@@ -101,8 +101,8 @@ body::after {
 .fa-bars::before {
   color: white;
   position: absolute;
-  top: 13px;
-  right: 12px;
+  top: 12px;
+  right:13px;
 
 }
 
@@ -190,7 +190,7 @@ section {
   color: rgba(255, 255, 255, 0.75);
   display: block;
   height: 3em;
-  left: 50%;
+  left: 54%;
   margin-left: -1.5em;
   position: absolute;
   text-indent: 3em;
@@ -200,6 +200,11 @@ section {
   border-radius: 50%;
   text-decoration: none;
     
+}
+
+.fa-chevron-down::before {
+  position: absolute;
+  right:16px;
 }
 
 
@@ -212,12 +217,6 @@ h2 {
     text-align: center;
     position: relative;
     bottom: 75px;
-}
-
-p {
-    margin: 15px;
-    color:white
-
 }
 
 
@@ -305,6 +304,7 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  color: white;
 }
 
 
