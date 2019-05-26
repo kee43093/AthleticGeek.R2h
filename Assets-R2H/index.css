@@ -116,21 +116,17 @@ body::after {
 
 section {
   display: block;
+  margin:0;
+  border:0;
+  font-size: 100%;
 }
 
 
 .bg-img {
     background-image: url("/images/backpack.jpg");
 
-  
 }
 
-section {
-  margin:0;
-  border:0;
-  vertical-align: baseline;
-  font-size: 100%;
-}
 
 #banner {
     height: 100vh;
