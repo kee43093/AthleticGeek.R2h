@@ -219,7 +219,7 @@ h2 {
     text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
     text-align: center;
     position: relative;
-    bottom: 72px;
+    bottom: 4px;
 }
 
 
@@ -425,5 +425,4 @@ textarea  {
 #one .content {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-column-gap: 10px;
 }
