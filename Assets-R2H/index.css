@@ -203,8 +203,10 @@ section {
     
 }
 
-.fa-chevron-down::before {
+.fa-chevron-down:before {
   position: absolute;
+  right: 34%;
+  top: 36%;
 
 }
 
