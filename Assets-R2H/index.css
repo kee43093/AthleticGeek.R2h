@@ -23,18 +23,18 @@ body::after {
   background: black;
   content:'';
   background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    visibility: visible;
-    opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  visibility: visible;
+  opacity: 1;
 }
 /* Beginning of header */
 
@@ -98,8 +98,12 @@ body::after {
   
 }
 
-.fa-bars:before {
+.fa-bars::before {
   color: white;
+  position: absolute;
+  top: 13px;
+  right: 12px;
+
 }
 
 /* End of header */
@@ -111,7 +115,7 @@ section {
 
 
 .bg-img {
-    background-image: url("/images/oregon6.jpg");
+    background-image: url("/images/backpack.jpg");
 
   
 }
@@ -188,7 +192,6 @@ section {
   height: 3em;
   left: 50%;
   margin-left: -1.5em;
-  overflow: hidden;
   position: absolute;
   text-indent: 3em;
   white-space: nowrap;
@@ -219,7 +222,7 @@ p {
 
 
 .bg-img1 {
-  background-image:url("/images/christopher-burns-617704-unsplash.jpg");
+  background-image:url("");
   cursor: none;
     
 }
