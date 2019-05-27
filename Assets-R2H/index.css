@@ -290,11 +290,28 @@ article {
 }
 
 
-
+/* Second Section */
 .bg-img2 {
     background-image:url("/images/oregon3.jpg");
 }
 
+#one .content {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.season_Spring {
+  background-image:url("/images/Spring.png");
+}
+
+.season_Summer {
+  background-image:url("/images/Summer.jpg");
+
+}
+
+
+
+/*End Of Second Section */
 
 .bg-img3 {
 background-image:url("/images/oregon6.jpg");
@@ -422,7 +439,3 @@ textarea  {
 
 
 
-#one .content {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
