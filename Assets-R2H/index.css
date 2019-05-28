@@ -503,3 +503,15 @@ button {
   border-color: rgba(255, 255, 255, 0.2);
   font-size: 1.25em;
 }
+
+
+/* Media Query */
+
+@media only screen and (max-width:568) {
+  .bg-img, .bg-img1, .bg-img2, .bg-img3 {
+    background-attachment: scroll;
+
+  } 
+  
+  
+}

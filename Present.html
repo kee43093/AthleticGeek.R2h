@@ -12,16 +12,8 @@
 </head>
     
 <body>
-    <!--
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Food & Activites</li>
-            </ul>
-        </nav>
-
-    --->
     
+        
     <header id="header">  
         <div class="logo">
             <a href="#" target="_blank">  
@@ -30,14 +22,18 @@
             </a>
         </div>
             <a href="#option-menu"><i class="fas fa-bars"></i>
-                <span class="menu">Menu</span>
+                <nav id="nav">
+                        <ul>
+                            <li>Home</li>
+                            <li>Food & Activites</li>
+                        </ul>
+                    </nav>
             </a>      
-        </header>
+    </header>
     
     
-    <!-- this would be your heading -->
 
-        <section id="banner" class="bg-img">
+    <section id="banner" class="bg-img">
             <div class="inner">
                 <header>
                     <h1>Oregon</h1>
@@ -46,7 +42,7 @@
             <a href="#one" class="more scrolly current">
                 <i class="fas fa-chevron-down"></i>
             </a>        
-        </section>
+    </section>
 
     <!--One-->
 
@@ -206,6 +202,8 @@
         
         </footer>
   
-
+        <script>
+            const nav_menu = document.getElementById('nav');
+        </script>
 </body>
 </html>
