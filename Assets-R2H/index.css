@@ -311,6 +311,9 @@ article {
   height: 100%;
   width: 97%;
   margin: 0.1em;
+  min-height: 35vh;
+  width: 97%;
+  margin: 0.1em;
  }
 
 .season_Summer {
