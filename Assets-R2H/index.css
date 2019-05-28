@@ -306,7 +306,8 @@ article {
 
 #one .content {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid 
 }
 
 
@@ -319,12 +320,12 @@ article {
   
 }
  .weather {
-  height: 100%;
-  width: 97%;
   margin: 0.1em;
   min-height: 35vh;
-  width: 97%;
+  width: 42vh;
   margin: 0.1em;
+  position:relative;
+  
  }
 
 .season_Summer {
@@ -333,6 +334,7 @@ article {
   background-repeat: no repeat;
   background-size: cover;
 }
+
 
 .season_Winter {
   background-image:url("/images/Winter.jpg");
@@ -347,6 +349,14 @@ article {
   background-repeat: no repeat;
   background-size: cover;
 }
+
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 /*End Of Second Section */
 
 .bg-img2 {
