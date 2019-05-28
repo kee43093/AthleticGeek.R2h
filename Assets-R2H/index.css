@@ -498,3 +498,8 @@ textarea  {
 
 
 
+button {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.2);
+  font-size: 1.25em;
+}
