@@ -307,7 +307,7 @@ article {
 #one .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid 
+  grid-column-gap: 1em;
 }
 
 
@@ -321,8 +321,8 @@ article {
 }
  .weather {
   margin: 0.1em;
-  min-height: 35vh;
-  width: 42vh;
+  height: 38vh;
+  width: 45vh;
   margin: 0.1em;
   position:relative;
   
@@ -368,6 +368,7 @@ article {
 .bg-img3 {
 background-image:url("/images/calum-lewis-387612-unsplash.jpg");
 background-size: cover;
+background-position: center;
 }
 
 #three button {
