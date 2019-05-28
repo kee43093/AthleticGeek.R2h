@@ -341,8 +341,11 @@ article {
   background-image:url("/images/oregon3.jpg");
 }
 
+
+/* Section Three */
 .bg-img3 {
-background-image:url("/images/oregon6.jpg");
+background-image:url("/images/calum-lewis-387612-unsplash.jpg");
+background-size: cover;
 }
 
 
