@@ -25,7 +25,7 @@ body {
 }
 
 body::after {
-  background: black;
+  background:black;
   content:'';
   background-attachment: fixed;
   background-position: center;
@@ -37,7 +37,7 @@ body::after {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
+  z-index: -10000;
   visibility: visible;
   opacity: 1;
 }
@@ -291,9 +291,7 @@ article {
 
 
 /* Second Section */
-.bg-img2 {
-    background-image:url("/images/oregon3.jpg");
-}
+
 
 #one .content {
   display: grid;
@@ -307,8 +305,15 @@ article {
   background-repeat: no repeat;
   background-size: cover;
   
+  
 }
-
+ .weather {
+   height: 400px;
+   height: 400px;
+   width: inherit;
+   min-width: 400px;
+   margin: 0.500em;
+ }
 
 .season_Summer {
   background-image:url("/images/Summer.jpg");
@@ -317,8 +322,24 @@ article {
   background-size: cover;
 }
 
+.season_Winter {
+  background-image:url("/images/Winter.jpg");
+  background-position: bottom;
+  background-repeat: no repeat;
+  background-size: cover;
+}
 
+.season_Fall {
+  background-image:url("/images/Fall.jpg");
+  background-position: bottom;
+  background-repeat: no repeat;
+  background-size: cover;
+}
 /*End Of Second Section */
+
+.bg-img2 {
+  background-image:url("/images/oregon3.jpg");
+}
 
 .bg-img3 {
 background-image:url("/images/oregon6.jpg");
