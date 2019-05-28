@@ -300,15 +300,22 @@ article {
   grid-template-columns: 25% 25% 25% 25%;
 }
 
+
 .season_Spring {
   background-image:url("/images/Spring.png");
+  background-position: bottom;
+  background-repeat: no repeat;
+  background-size: cover;
+  
 }
+
 
 .season_Summer {
   background-image:url("/images/Summer.jpg");
-
+  background-position: bottom;
+  background-repeat: no repeat;
+  background-size: cover;
 }
-
 
 
 /*End Of Second Section */
