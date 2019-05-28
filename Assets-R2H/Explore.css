@@ -6,16 +6,16 @@
 
 body {
     margin:0;
-    background: black;
 }
+
 
 
 
 .photo_gallery {
     display: grid;
-    grid-template-columns: 
+    grid-template-columns: 1fr;
 }
 
-.post-one article {
-    background-image:url("")
+.post-one .article {
+    background-image:url("/Explore-imgs/1478739739143.jpeg");
 }
