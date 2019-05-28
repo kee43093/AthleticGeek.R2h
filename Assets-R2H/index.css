@@ -188,6 +188,7 @@ section {
 /*Scroll Bar */
 
 #banner .more {
+  transition: height 0.2s ease;
   background-color: black;
   border: 0;
   bottom: 3em;
@@ -212,6 +213,7 @@ section {
   position: absolute;
   right: 34%;
   top: 36%;
+  
 
 }
 /* End Of ScrollBar */
