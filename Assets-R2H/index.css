@@ -308,11 +308,9 @@ article {
   
 }
  .weather {
-   height: 400px;
-   height: 400px;
-   width: inherit;
-   min-width: 400px;
-   margin: 0.500em;
+  height: 100%;
+  width: 97%;
+  margin: 0.1em;
  }
 
 .season_Summer {
@@ -346,6 +344,11 @@ article {
 .bg-img3 {
 background-image:url("/images/calum-lewis-387612-unsplash.jpg");
 background-size: cover;
+}
+
+#three button {
+  position: absolute;
+  top: 497px;
 }
 
 
