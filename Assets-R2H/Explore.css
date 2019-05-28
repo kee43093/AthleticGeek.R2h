@@ -1,9 +1,21 @@
-body {
+*{
+    box-sizing:border-box;
     
+
+}
+
+body {
+    margin:0;
+    background: black;
 }
 
 
 
 .photo_gallery {
+    display: grid;
+    grid-template-columns: 
+}
 
+.post-one article {
+    background-image:url("")
 }
