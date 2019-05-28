@@ -43,6 +43,10 @@ body::after {
 }
 /* Beginning of header */
 
+#nav {
+  visibility: hidden;
+}
+
 #header {
   background-color: transparent;
   color: #fdd1d1;
