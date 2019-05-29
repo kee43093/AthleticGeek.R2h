@@ -53,14 +53,17 @@ header {
     background-image:url("/Explore-imgs/Bacon.jpeg");
     background-size: cover;
     background-repeat: none;
-    height:100vh;\
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 
 }
 
 .post-four {
     background-image:url("/Explore-imgs/Burger.jpeg");
     height: 100vh;
-    width:100vh;
+    width:auto;
     background-size:cover;
     background-repeat: none;
 }
@@ -68,6 +71,7 @@ header {
 .post-five {
     background-image:url("/Explore-imgs/Cake.jpeg");
     height: 100vh;
+    width: auto;
     background-size:cover;
     background-repeat: none;    
 } 
@@ -75,6 +79,7 @@ header {
 .post-six {
     background-image:url(""); 
     height: 100vh;
+    width: auto;
     background-size:cover;
     background-repeat: none;
 }
@@ -82,55 +87,141 @@ header {
 
 .post-seven {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-eight {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
+
 }
 
 .post-nine {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-ten {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-eleven {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-tweleve {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-thirteen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 .post-fourteen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-fifteen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
+
 }
 
 .post-sixteen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-seventeen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-eighteen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-nineteen {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
 
 .post-twenty {
     background-image:url("");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
 }
