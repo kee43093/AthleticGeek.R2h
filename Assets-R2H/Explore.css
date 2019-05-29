@@ -14,8 +14,7 @@ header {
 .hero {
     background-image:url('/images/oregon6.jpg');
     background-size:cover;
-    position: absolute;
-    width: 100%;
+    position: relative;
     height: 100vh;
     
 }
@@ -24,17 +23,114 @@ header {
 
 .photo_gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-auto-rows: 5rem;
 
 }
 
-.post-one .article {
-    background-image:url("/images/oregon2.jpg");
-    margin: 0.1em;
-    height: 38vh;
-    width: 45vh;
-    margin: 0.1em;
-    position:relative;
+.article {
+}
 
+.post-one  {
+    background-image:url("/images/oregon2.jpg");
+    height: 100vh;
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+.post-two {
+    background-image:url("/Explore-imgs/1478739739143.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width:auto;
+    background-repeat: none;
+    background-position: center;
+
+}
+
+.post-three {
+    background-image:url("/Explore-imgs/Bacon.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    height:100vh;\
+
+}
+
+.post-four {
+    background-image:url("/Explore-imgs/Burger.jpeg");
+    height: 100vh;
+    width:100vh;
+    background-size:cover;
+    background-repeat: none;
+}
+
+.post-five {
+    background-image:url("/Explore-imgs/Cake.jpeg");
+    height: 100vh;
+    background-size:cover;
+    background-repeat: none;    
+} 
+
+.post-six {
+    background-image:url(""); 
+    height: 100vh;
+    background-size:cover;
+    background-repeat: none;
+}
+
+
+.post-seven {
+    background-image:url("");
+}
+
+.post-eight {
+    background-image:url("");
+}
+
+.post-nine {
+    background-image:url("");
+}
+
+.post-ten {
+    background-image:url("");
+}
+
+.post-eleven {
+    background-image:url("");
+}
+
+.post-tweleve {
+    background-image:url("");
+}
+
+.post-thirteen {
+    background-image:url("");
+}
+.post-fourteen {
+    background-image:url("");
+}
+
+.post-fifteen {
+    background-image:url("");
+}
+
+.post-sixteen {
+    background-image:url("");
+}
+
+.post-seventeen {
+    background-image:url("");
+}
+
+.post-eighteen {
+    background-image:url("");
+}
+
+.post-nineteen {
+    background-image:url("");
+}
+
+.post-twenty {
+    background-image:url("");
 }
