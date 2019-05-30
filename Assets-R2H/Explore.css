@@ -30,14 +30,13 @@ body {
   }
   
 .image {
-      display:inline-block;
       position: relative;
   }
 
 .image .flush {
     margin: 0 !important;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     
   }
   
@@ -75,11 +74,29 @@ header {
     border-radius: 4px 4px 0 0;
   }
   
-  header p {
+ header p {
    position: relative 
   }
   
+.Explore-img1 {
+    height: 38vh;
+    width: 40vw;
+    
+  }
+.Explore-img2 {
+  height:38vh;
+  width:40vw;
+}
 
+.Explore-img3 {
+  height:38vh;
+  width:40vw;
+}
+
+.Explore-img4 {
+  height:38vh;
+  width:40vw;
+}
 
 .post-one  {
     background-image:url("/images/oregon2.jpg");
