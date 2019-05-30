@@ -4,46 +4,84 @@
 
 body {
     margin:0;
+    padding: 3em;
     background:black;
-    padding: 1em;
 }
 
 header {
-    position: relative;
+    position:absolute;
+    left:0;
     top: 0;
 }
 
-.hero {
-    background-image:url('/images/oregon2.jpg');
-    background-size:cover;
-    position: relative;
-    height: 100vh;
-    background-position: center;   
-}
 
-.article {
-    background-size: cover;
-}
 
 
 .photo_gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 
+#main >.inner {
+    margin: 0 auto;
+    width: 80rem;
+    max-width: 90%;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+  }
+  
+  .image.fit img {
+    width: 100%;
+  }
+  
+  .image {
+      display:inline-block;
+      position: relative;
+  }
+
+  .image.flush {
+    margin: 0 !important;
+    
+  }
+  
+  .image.img {
+     display: block;
+  }
+  
+  .wrapper .content {
+    padding: 6rem;
+  }
+  header {
+    display: block;
+  }
+  
+  .wrapper .style2 header {
+    background: #121315;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  header p {
+   position: relative 
+  }
+  
+  .gallery {
+    width: 100%;
+    margin:0;
+    display:grid;
+    grid-template-columns: 1fr;
+    
+  }
 
 .post-one  {
     background-image:url("/images/oregon2.jpg");
-    height: 100vh;
     background-repeat: none;
     background-position: center;
-
 }
 
 .post-two {
     background-image:url("/Explore-imgs/1478739739143.jpeg");
-    height: 100vh;
-    width:auto;
     background-repeat: none;
     background-position: center;
 
@@ -52,165 +90,15 @@ header {
 .post-three {
     background-image:url("/Explore-imgs/Bacon.jpeg");
     background-repeat: none;
-    height:100vh;
-    width:auto;
     background-repeat: none;
     background-position: center;
+    
 
 }
 
 .post-four {
     background-image:url("/Explore-imgs/Burger.jpeg");
-    height: 100vh;
-    width:auto;
     background-repeat: none;
     background-position: center;
+    width: 100%;
 }
-
-.post-five {
-    background-image:url("/Explore-imgs/Cake.jpeg");
-    height: 100vh;
-    width: auto;
-    background-repeat: none;    
-    background-position: center;
-}
-
-.post-six {
-    background-image:url("/Explore-imgs/Chicken.jpeg"); 
-    height: 100vh;
-    width: auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-
-.post-seven {
-    background-image:url("/Explore-imgs/Cookies_Cream.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-eight {
-    background-image:url("/Explore-imgs/CornDogs.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-
-}
-
-.post-nine {
-    background-image:url("/Explore-imgs/Crabs.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-ten {
-    background-image:url("/Explore-imgs/Dessert.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-eleven {
-    background-image:url("/Explore-imgs/MilkShakes.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-twelve {
-    background-image:url("/Explore-imgs/Oysters.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-thirteen {
-    background-image:url("/Explore-imgs/Pie.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-.post-fourteen {
-    background-image:url("/Explore-imgs/Pizza.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-fifeteen {
-    background-image:url("/Explore-imgs/SeaFood.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-
-}
-
-.post-sixteen {
-    background-image:url("/Explore-imgs/TaterTots.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-seventeen {
-    background-image:url("/Explore-imgs/Wine.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-eighteen {
-    background-image:url("/Explore-imgs/Crabs.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-nineteen {
-    background-image:url("/Explore-imgs/Coffee.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-.post-twenty {
-    background-image:url("/Explore-imgs/Clams.jpeg");
-    background-repeat: none;
-    height:100vh;
-    width:auto;
-    background-repeat: none;
-    background-position: center;
-}
-
-
-
-

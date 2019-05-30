@@ -41,7 +41,7 @@ body::after {
   opacity: 1;
 }
 
-main {
+.main_content {
   display: block;
   height: 100%;
   box-shadow: -2px 2px 40px 0 rgba(194, 27, 27, 0.1);
