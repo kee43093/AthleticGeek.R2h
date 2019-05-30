@@ -4,8 +4,12 @@
 
 body {
     margin:0;
-    padding: 3em;
     background:black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.65;
+    padding-top: 8rem;
 }
 
 
@@ -71,9 +75,22 @@ body {
     padding: 6rem;
   }
   
-header {
-    display: block;
+#header {
+    color: #a6a6a6;
+    cursor: default;
+    position: relative;
+    text-align: center;
+    z-index: 10001;
   }
+
+#header > .logo a {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 1rem;
+}
+
 
 p {
   margin: 0 2rem 0;
@@ -82,6 +99,10 @@ p {
  header p {
    position: relative 
   }
+
+#header > .logo {
+  margin: 0 0 4rem;
+}
   
 .gallery {
   width:100%;
