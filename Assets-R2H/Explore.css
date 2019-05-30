@@ -19,6 +19,7 @@ body {
     border-radius: 4px;
   }
   
+
 .image.fit img {
     width: 100%;
   }
@@ -27,11 +28,9 @@ body {
       position: relative;
   }
 
-.image .flush {
+.image.flush {
     margin: 0 !important;
-    display: grid;
-    grid-template-columns: 1fr ;
-    
+  
   }
   
 .image img {
@@ -48,6 +47,19 @@ body {
   padding: 4em 2em;
 }
 
+.wrapper > header h2::after {
+  content: '';
+  position:absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  width:10%;
+  height:1px;
+  background:black;
+  margin:auto;
+
+}
+
 .wrapper > header {
   text-align: center;
   background: #FFF;
@@ -62,23 +74,53 @@ body {
 header {
     display: block;
   }
-  
-.wrapper .style2 header {
-    background: #121315;
-    border-radius: 4px 4px 0 0;
-  }
-  
+
+p {
+  margin: 0 2rem 0;
+}
+
  header p {
    position: relative 
   }
   
 .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  width:100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
+
 
 }
 
   .gallery > * {
-    width:100%;
-
+    width: 50%;
   }
+
+  .wrapper.style2 {
+    padding: 6rem;
+    background: #1e1f23;
+  }
+
+.spotlight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.spotlight > * {
+  width: 50%;
+
+}
+
+.spotlight .image img {
+  width: 100%;
+}
+
+.spotlight .inner {
+    padding: 6rem;
+}
+
+.spotlight.alt {
+  background: #1e1f23;
+}
