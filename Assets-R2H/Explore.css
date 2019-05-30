@@ -22,7 +22,7 @@ header {
     grid-template-columns: 1fr 1fr ;
 }
 
-#main >.inner {
+#main > .inner {
     margin: 0 auto;
     width: 80rem;
     max-width: 90%;
@@ -32,32 +32,38 @@ header {
     border-radius: 4px;
   }
   
-  .image.fit img {
+.image.fit img {
     width: 100%;
   }
   
-  .image {
+.image {
       display:inline-block;
       position: relative;
   }
 
-  .image.flush {
+.image .flush {
     margin: 0 !important;
     
   }
   
-  .image.img {
+.image img {
      display: block;
   }
   
-  .wrapper .content {
+.wrapper > header h2 {
+    position: relative;
+    padding-bottom: 0.75;
+}
+
+.wrapper .content {
     padding: 6rem;
   }
-  header {
+  
+header {
     display: block;
   }
   
-  .wrapper .style2 header {
+.wrapper .style2 header {
     background: #121315;
     border-radius: 4px 4px 0 0;
   }
