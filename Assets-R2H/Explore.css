@@ -112,8 +112,6 @@ p {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  
-
 
 }
 
@@ -152,10 +150,40 @@ p {
 #footer {
   padding: 2rem 0 0.1rem;
   text-align: center;
-  
+}
 
+#footer a {
+  color: white;
 }
 
 .container {
   width:80rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position:relative;
+}
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0 1rem 0 0;
+
+}
+
+div {
+  margin: 0;
+  padding:0;
+
 }
