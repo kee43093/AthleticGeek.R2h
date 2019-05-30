@@ -8,13 +8,6 @@ body {
     background:black;
 }
 
-header {
-    position:absolute;
-    left:0;
-    top: 0;
-}
-
-
 
 
 .photo_gallery {
@@ -43,6 +36,8 @@ header {
 
 .image .flush {
     margin: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
   }
   
@@ -53,7 +48,19 @@ header {
 .wrapper > header h2 {
     position: relative;
     padding-bottom: 0.75;
+    color:black;
 }
+
+.wrapper header.special {
+  padding: 4em 2em;
+}
+
+.wrapper > header {
+  text-align: center;
+  background: #FFF;
+  margin: 0;
+}
+
 
 .wrapper .content {
     padding: 6rem;
@@ -72,13 +79,7 @@ header {
    position: relative 
   }
   
-  .gallery {
-    width: 100%;
-    margin:0;
-    display:grid;
-    grid-template-columns: 1fr;
-    
-  }
+
 
 .post-one  {
     background-image:url("/images/oregon2.jpg");
