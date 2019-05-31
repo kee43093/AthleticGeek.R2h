@@ -196,6 +196,17 @@ div {
 
 }
 
+.wrapper .content {
+  padding: 1em;
+}
+
+p {
+  margin: 0em 1rem 3em;
+}
+
+.spotlight .inner {
+  padding:0em;
+}
 
 }
 
