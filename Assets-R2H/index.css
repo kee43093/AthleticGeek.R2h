@@ -538,19 +538,21 @@ button {
 .post .box {
   max-width: 100%;
 }
-
-  .banner {
+ 
+.banner {
     background-attachment: scroll !important;
+    min-height: 50vh;
   }
 
+.banner h1 {
+  font-size:6em;
+}
+  
   .post {
     background-attachment: scroll !important;
   
   }
 
-  #banner {
-    min-height: 50vh;
-  }
 
 .main_content {
   padding: 0;
