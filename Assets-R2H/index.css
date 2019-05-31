@@ -550,9 +550,11 @@ button {
   }
 
 .banner button {
-  top:20rem;
-}
+  position:relative;
+  top: -2em;
+  }
 
+  
 .banner h1 {
   font-size:2em;
 }
@@ -562,11 +564,12 @@ button {
   
   }
 
-
 .main_content {
   padding: 0;
 }
-};
+
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
