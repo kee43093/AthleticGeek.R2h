@@ -197,6 +197,10 @@ div {
 
 }
 
+.box {
+  padding: 5em;
+}
+
 .wrapper .content {
   padding: 1em;
 }
