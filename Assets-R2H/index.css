@@ -353,14 +353,14 @@ article {
 
 
 .season_Winter {
-  background-image:url("/images/Winter.jpg");
+  background-image:url("/Explore-imgs/Winter\ 2.0.jpg");
   background-position: bottom;
   background-repeat: no repeat;
   background-size: cover;
 }
 
 .season_Fall {
-  background-image:url("/images/Fall.jpg");
+  background-image:url("/Explore-imgs/Fall\ 1.0.jpg");
   background-position: bottom;
   background-repeat: no repeat;
   background-size: cover;
@@ -372,6 +372,14 @@ article {
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.overlay:hover {
+  background:grey;
+  transform:scale(1);
+  opacity: 0.15;
+  color: black;
+
 }
 
 /*End Of Second Section */
