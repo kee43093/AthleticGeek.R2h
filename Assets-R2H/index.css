@@ -525,6 +525,10 @@ button {
 
   }
 
+.bg-img {
+  background-size: contain;
+}
+
 .post .box {
   max-width: 100%;
 }
