@@ -192,7 +192,7 @@ section {
 
   #banner button {
     position: absolute;
-    top: 15rem;
+    top: 14rem;
     font-size: 1.5rem;
     transform: translate(-50%,-50%);
   }
@@ -543,6 +543,10 @@ button {
     background-attachment: scroll !important;
     min-height: 50vh;
   }
+
+.banner button {
+  top:20rem;
+}
 
 .banner h1 {
   font-size:5em;
