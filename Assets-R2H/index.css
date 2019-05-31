@@ -556,7 +556,7 @@ button {
   }
 
   #banner {
-    height: 50vh;
+    min-height: 50vh;
   }
 
 .main_content {
