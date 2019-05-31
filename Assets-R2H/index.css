@@ -540,7 +540,7 @@ button {
   }
 
 .bg-img {
-  background-size: contain !important;
+  background-attachment: scroll;
 }
 
 .post .box {
