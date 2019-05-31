@@ -217,11 +217,6 @@ p {
     top: 1em;
 }
 
-body {
-  padding-top: 0rem;
-  
-}
-
 .icons {
   margin-left: 8em;
 }
@@ -234,6 +229,8 @@ body {
 
 }
 
-@media (min-width: 1280px) {
-
+@media (max-width: 1280px) {
+.container {
+  margin: 0 auto;
+}
 }
