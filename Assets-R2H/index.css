@@ -131,7 +131,7 @@ section {
 
 /* Section One */
 .bg-img {
-    background-image: url("/images/backpack.jpg");
+    background-image: url("/Road2Hire-Presentation/images/backpack.jpg");
     box-shadow: -2px 2px 40px 0 rgba(255, 255, 255, 0.1);
     
 
@@ -247,12 +247,6 @@ h2 {
 }
 
 
-.bg-img1 {
-  background-image:url("");
-  
-    
-}
-
 .post {
     align-items : center;
     display: flex;
@@ -325,7 +319,7 @@ article {
 
 
 .season_Spring {
-  background-image:url("/images/Spring.png");
+  background-image:url("/Road2Hire-Presentation/images/Spring.png");
   background-position: bottom;
   background-repeat: no repeat;
   background-size: cover;
@@ -344,7 +338,7 @@ article {
  }
 
 .season_Summer {
-  background-image:url("/images/Summer.jpg");
+  background-image:url("/Road2Hire-Presentation/images/Summer.jpg");
   background-position: bottom;
   background-repeat: no repeat;
   background-size: cover;
@@ -359,7 +353,7 @@ article {
 }
 
 .season_Fall {
-  background-image:url("/Explore-imgs/Fall\ 1.0.jpg");
+  background-image:url("/Road2Hire-Presentation/Explore-imgs/Fall\ 1.0.jpg");
   background-position: bottom;
   background-repeat: no repeat;
   background-size: cover;
@@ -384,13 +378,13 @@ article {
 /*End Of Second Section */
 
 .bg-img2 {
-  background-image:url("/images/oregon3.jpg");
+  background-image:url("/Road2Hire-Presentation/images/oregon3.jpg");
 }
 
 
 /* Section Three */
 .bg-img3 {
-background-image:url("/images/calum-lewis-387612-unsplash.jpg");
+background-image:url("/Road2Hire-Presentation/images/calum-lewis-387612-unsplash.jpg");
 background-size: cover;
 background-position: center;
 }
