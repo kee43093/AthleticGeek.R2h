@@ -534,7 +534,7 @@ button {
 
 @media (min-width: 320px) and (max-width: 767px) {
   #one .content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 
   }
 
