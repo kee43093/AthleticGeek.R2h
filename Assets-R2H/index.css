@@ -552,7 +552,7 @@ button {
 
   .post {
     background-attachment: scroll !important;
-    min-height:100vh;
+  
   }
 
   #banner {
@@ -560,7 +560,7 @@ button {
   }
 
 .main_content {
-  padding:0;
+  padding: 0;
 }
 }
 
