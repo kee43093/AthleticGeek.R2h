@@ -575,6 +575,10 @@ button {
   padding: 0;
 }
 
+.main > .inner {
+  max-width: 80%;
+}
+
 }
 
 
