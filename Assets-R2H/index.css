@@ -531,8 +531,9 @@ button {
 
   }
 
+
 .bg-img {
-  background-attachment: scroll;
+  background-attachment: scroll !important;
 }
 
 .post .box {
@@ -542,6 +543,7 @@ button {
 .banner {
     background-attachment: scroll !important;
     min-height: 50vh;
+    background-size: contain !important;
   }
 
 .banner button {
