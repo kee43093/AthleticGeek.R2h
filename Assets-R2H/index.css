@@ -371,13 +371,6 @@ article {
   width: 100%;
 }
 
-.overlay:hover {
-  background:grey;
-  transform:scale(1);
-  opacity: 0.15;
-  color: black;
-
-}
 
 /*End Of Second Section */
 
