@@ -531,7 +531,7 @@ button {
   }
 
 .bg-img {
-  background-size: contain;
+  background-size: contain !important;
 }
 
 .post .box {
