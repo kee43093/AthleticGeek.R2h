@@ -49,9 +49,6 @@ body::after {
 }
 /* Beginning of header */
 
-#nav {
-  visibility: hidden;
-}
 
 #header {
   background-color: transparent;
@@ -141,6 +138,7 @@ section {
 }
 
 
+
 #banner {
     height: 100vh;
     position: relative;
@@ -191,8 +189,14 @@ section {
     font-family: "Work Sans", cursive;
     color: white;
     top: 20px;
-    
-}
+  }
+
+  #banner button {
+    position: absolute;
+    top: 18rem;
+    font-size: 1.5rem;
+    transform: translate(-50%,-50%);
+  }
 
 /*Scroll Bar */
 
@@ -317,6 +321,7 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-column-gap: 1em;
+  justify-items: center;
 }
 
 
