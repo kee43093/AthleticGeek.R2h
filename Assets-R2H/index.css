@@ -194,7 +194,12 @@ section {
     position: absolute;
     top: 17rem;
     font-size: 1.5rem;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+  }
+
+  #banner button a {
+    color: black;
+    text-decoration: none;
   }
 
 /*Scroll Bar */
@@ -613,6 +618,6 @@ form button {
   
  #three button {
     top: 30em;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
