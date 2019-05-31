@@ -531,6 +531,10 @@ button {
 
   }
 
+  #three button {
+  top: 39rem;
+  font-size: 1.2rem;
+  }
 
 .bg-img {
   background-attachment: scroll !important;
@@ -553,7 +557,7 @@ button {
   font-size:2em;
 }
   
-  .post {
+.post {
     background-attachment: scroll !important;
   
   }
@@ -562,7 +566,7 @@ button {
 .main_content {
   padding: 0;
 }
-}
+};
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
