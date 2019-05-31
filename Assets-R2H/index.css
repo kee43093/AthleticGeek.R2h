@@ -542,7 +542,6 @@ button {
  
 .banner {
     background-attachment: scroll !important;
-    min-height: 50vh;
     background-size: contain !important;
   }
 
@@ -551,7 +550,7 @@ button {
 }
 
 .banner h1 {
-  font-size:4em;
+  font-size:2em;
 }
   
   .post {
