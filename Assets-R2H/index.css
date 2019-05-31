@@ -173,9 +173,7 @@ section {
 }
 
 #banner .inner {
-    transform:scale(1.0);
-    transition: opacity 1s ease, transform 1s ease;
-    opacity:1;
+
     position: relative;
     z-index: 2;
   
@@ -193,7 +191,7 @@ section {
 
   #banner button {
     position: absolute;
-    top: 18rem;
+    top: 15rem;
     font-size: 1.5rem;
     transform: translate(-50%,-50%);
   }
