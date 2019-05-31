@@ -390,8 +390,8 @@ background-position: center;
 
 #three button {
   position: absolute;
-   top: 52rem;
-   font-size: 1.5rem;
+  top: 30rem;
+  font-size: 1.5rem;
 }
 
 
@@ -521,6 +521,13 @@ button {
   font-size: 1.25em;
 }
 
+form button {
+  border: solid white 1px;
+  font-size: 1.2em;
+  text-shadow: 0 0 black;
+  color: white;
+}
+
 
 /* Media Query */
 
@@ -604,4 +611,7 @@ button {
     grid-row-gap: 0.5em
   }
   
+ #three button {
+    top: 30em;
+  }
 }
