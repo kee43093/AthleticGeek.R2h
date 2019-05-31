@@ -89,6 +89,7 @@ body::after {
   color: #fff;
   font-weight: 600;
   text-decoration: none;
+  margin-left: 2em;
 }
 
 #header .menu {
