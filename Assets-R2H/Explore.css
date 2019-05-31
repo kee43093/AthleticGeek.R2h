@@ -92,6 +92,7 @@ body {
     color: #FFF;
     text-decoration: none;
     line-height: 1rem;
+    
 }
 
 
@@ -195,6 +196,14 @@ div {
 
 }
 
+#header{
+  top:2rem;
+}
+
+#footer {
+  padding: 0 0 0.1;
+}
+
 .box {
   padding: 5em;
 }
@@ -215,6 +224,10 @@ p {
   transform: translate(-50%,-50%);
     position: relative;
     top: 1em;
+}
+
+.container {
+  width: 19rem;
 }
 
 .icons {
