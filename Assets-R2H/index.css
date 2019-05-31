@@ -555,6 +555,10 @@ button {
     background-attachment: scroll !important;
   }
 
+  #banner {
+    height: 50vh;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
