@@ -390,7 +390,8 @@ background-position: center;
 
 #three button {
   position: absolute;
-  top: 497px;
+   top: 52rem;
+   font-size: 1.5rem;
 }
 
 
@@ -524,7 +525,7 @@ button {
 /* Media Query */
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   #one .content {
     grid-template-columns: 1fr;
 
@@ -539,11 +540,11 @@ button {
 }
 
   .banner {
-    background-attachment: scroll;
+    background-attachment: scroll !important;
   }
 
   .post {
-    background-attachment: scroll;
+    background-attachment: scroll !important;
   }
 
 }
