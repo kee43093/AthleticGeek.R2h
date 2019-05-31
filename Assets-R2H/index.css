@@ -553,12 +553,16 @@ button {
 
   .post {
     background-attachment: scroll !important;
+    min-height:100vh;
   }
 
   #banner {
     height: 50vh;
   }
 
+.main_content {
+  padding:0;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
