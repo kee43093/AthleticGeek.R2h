@@ -192,7 +192,7 @@ section {
 
   #banner button {
     position: absolute;
-    top: 14rem;
+    top: 17rem;
     font-size: 1.5rem;
     transform: translate(-50%,-50%);
   }
@@ -551,7 +551,6 @@ button {
 
 .banner button {
   position:relative;
-  top: -2em;
   }
 
 
@@ -570,6 +569,10 @@ button {
 
 .container {
   width: 8rem;
+}
+
+#footer {
+  padding: 0;
 }
 
 }
