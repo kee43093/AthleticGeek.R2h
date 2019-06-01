@@ -543,7 +543,7 @@ form button {
   }
 
   #three button {
-  top: 39rem;
+  top: 41rem;
   font-size: 1.2rem;
   }
 
@@ -592,6 +592,10 @@ form button {
 
 #header > .logo {
   margin: 0 0 1rem;
+}
+
+.box {
+  padding:6em;
 }
 
 }
