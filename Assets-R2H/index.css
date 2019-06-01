@@ -55,7 +55,7 @@ body::after {
   color: #fdd1d1;
   cursor: default;
   height: 3.25em;
-  position: fixed;
+  position: absolute;
   text-align: right;
   top: 1em;
   width: 100%;
