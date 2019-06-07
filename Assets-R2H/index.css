@@ -202,41 +202,6 @@ section {
     text-decoration: none;
   }
 
-/*Scroll Bar */
-
-#banner .more {
-  transition: height 0.2s ease;
-  background-color: black;
-  border: 0;
-  bottom: 3em;
-  color: rgba(255, 255, 255, 0.75);
-  display: block;
-  height: 3em;
-  left: 50%;
-  margin-left: -1.5em;
-  position: absolute;
-  text-indent: 3em;
-  white-space: nowrap;
-  width: 3em;
-  z-index: 2;
-  border-radius: 50%;
-  text-decoration: none;
-  
-}
-
-
-
-.fa-chevron-down:before {
-  position: absolute;
-  right: 34%;
-  top: 36%;
-  
-
-}
-/* End Of ScrollBar */
-
-
-
 
 
 h2 {
@@ -264,26 +229,6 @@ h2 {
     position: relative;
     text-align: center;
     overflow: hidden;
-
-}
-
-.post .more .current {
-    background-color: rgba(255, 255, 255, 0.15);
-    border: 0;
-    bottom: -3em;
-    color: rgba(255, 255, 255, 0.75);
-    display: block;
-    height: 3em;
-    left: 50%;
-    margin-left: -1.5em;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 3em;
-    white-space: nowrap;
-    width: 3em;
-    z-index: 1;
-    border-radius: 24%;
-    text-decoration: none;
 
 }
 
