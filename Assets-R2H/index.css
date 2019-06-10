@@ -92,8 +92,8 @@ body::after {
   margin-left: 2em;
 }
 
-#header .menu_border {
-  width: 50px;
+#menu_button {
+    width: 50px;
     background: white;
     height: 50px;
     border: 1px white solid;
@@ -102,13 +102,6 @@ body::after {
     right: 0px;
 }
 
-
-
-.fa-bars::before {
-  color:black;
-  position: absolute;
-
-}
 
 /* End of header */
 
