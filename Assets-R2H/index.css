@@ -105,10 +105,8 @@ body::after {
 
 
 .fa-bars::before {
-  color: white;
+  color:black;
   position: absolute;
-  top: 12px;
-  right:13px;
 
 }
 
