@@ -93,15 +93,21 @@ body::after {
 }
 
 #menu_button {
-    width: 50px;
+    width: 3rem;
     background: white;
-    height: 50px;
+    height: 3rem;
     border: 1px white solid;
     border-radius: 50%;
     position: absolute;
-    right: 0px;
+    right: 1em;
 }
 
+.fa-bars:before {
+  position: absolute;
+  right: 1rem;
+  text-decoration: none;
+  color: black;
+}
 
 /* End of header */
 
