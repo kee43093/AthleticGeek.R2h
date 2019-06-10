@@ -94,19 +94,20 @@ body::after {
 
 #menu_button {
     width: 3rem;
-    background: white;
     height: 3rem;
     border: 1px white solid;
     border-radius: 50%;
     position: absolute;
     right: 1em;
+    background: rgba(255, 255, 255, 0.075)
 }
 
 .fa-bars:before {
   position: absolute;
   right: 1rem;
   text-decoration: none;
-  color: black;
+  color: white;
+  
 }
 
 /* End of header */
