@@ -112,6 +112,11 @@ body::after {
   
 }
 
+.Main_menu {
+  display: none;
+  
+}
+
 /* End of header */
 
 /*main content */
